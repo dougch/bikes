@@ -1,7 +1,7 @@
 # MOP — Bottom-bracket-area creak diagnosis & correction
 
 **Bike:** Trek Checkpoint SL 6 AXS Gen 2 (2023), 54 cm
-**Assembly:** SRAM Rival 1 AXS crank, DUB Wide spindle, T47 threaded bottom bracket
+**Assembly:** SRAM Rival 1 AXS crank, DUB Wide spindle, SRAM DUB **T47** threaded bottom bracket (cup reads "SRAM"/"DUB" — likely the Road Wide variant; confirm Road vs Road Wide)
 **Symptom:** Sharp creak at crank positions 3 o'clock / 9 o'clock, **under load only**, reproducible statically (clipped in, braced, brakes locked). Pedals and cleats already ruled out by swap. Started immediately after a shop BB replacement.
 **Doc rev:** 1 — 2026-08-30
 **Estimated time:** 60–90 min
@@ -32,7 +32,10 @@
 - T25 Torx bit
 - 2 mm and 2.5 mm hex keys (preload collar clamp screw — check which yours takes)
 - Low-range torque wrench (1–10 N·m) for chainring bolts and pinch bolt
-- T47 bottom bracket wrench **matching the installed BB brand** — identify the brand off the cup face before buying (SRAM DUB T47, Wheels Mfg, Praxis, Kogel all differ)
+- **T47 bottom bracket wrench — the installed BB is a SRAM DUB T47** (cup face reads "SRAM" / "DUB"):
+  - Use **Park Tool BBT-47-16** — the 16-notch **52–54 mm** T47 tool, which explicitly lists "SRAM T47 DUB". 3/8" drive, so a torque wrench fits it. Equivalents: SRAM's own DUB T47 tool, or 16-notch T47 tools from Wheels Mfg / Unior / Birzman.
+  - **Do NOT buy** the 44 mm external tool (Park **BBT-69.4** or **BBT-79**, Shimano-style). Same 16-notch pattern, wrong diameter — that one fits DUB **BSA**, not DUB **T47**.
+  - **Do NOT buy** the 12-notch Park **BBT-47** (no "-16") — that's for Chris King ThreadFit and won't engage the SRAM cup.
 - Soft mallet
 - Bright work light, dental/bearing pick, calipers (optional)
 
@@ -47,8 +50,8 @@
 
 | Fastener | Tool | Torque | Prep |
 |---|---|---|---|
-| T47 BB cups | T47 wrench | 35–45 N·m | anti-seize on threads |
-| DUB crank bolt (self-extracting) | 8 mm hex | 38–54 N·m | light grease |
+| T47 BB cups | Park BBT-47-16 | **35–50 N·m** (SRAM DUB T47), follow the arrows on the cups | anti-seize on threads |
+| DUB crank bolt (self-extracting) | 8 mm hex | 54 N·m (SRAM DUB; older docs list a 38–54 range) | light grease |
 | Preload adjuster collar | hand | snug — zero play, cranks still spin free | — |
 | Preload collar clamp screw | 2 / 2.5 mm hex | just snug (~1.5 N·m) — do **not** force | — |
 | Chainring bolts ×8 (behind spider) | T25 | ~2.5 N·m (confirm) | blue threadlocker |
@@ -99,19 +102,19 @@ Rough bearings or play → BB comes out (Step 4). Bearings perfect → still do 
 
 ### Step 4 — T47 bottom bracket cups
 
-1. Put the T47 wrench on each cup. Gently test in the **loosening** direction. Movement before ~35 N·m = it was under-torqued.
-   - **Remember the drive-side cup is reverse (left-hand) thread.**
+1. Put the **BBT-47-16** on each cup. Gently test in the **loosening** direction. Movement before ~35 N·m = it was under-torqued.
+   - Thread direction: follow the **directional arrows stamped on the SRAM cups** (drive side is typically left-hand / reverse on T47).
 2. Remove both cups. Inspect:
    - Frame threads + cup threads must carry grease/anti-seize. **Bone-dry = the classic T47 creak.**
    - No galling, cross-threading, or alloy shavings. Cups should thread back most of the way **by hand**.
-3. **Confirm the part.** Crank is DUB **Wide**. The BB must be a DUB Wide-compatible T47 (correct bearing bore/spacing). A standard road DUB BB under a Wide crank never fully stops creaking. If the installed unit is not clearly a Wide-spec BB, replace it with one that is.
-4. Clean, fresh anti-seize on threads, reinstall, torque **35–45 N·m** (drive side reverse thread).
+3. **Confirm the variant.** The cup reads "SRAM"/"DUB" so it's a SRAM DUB T47 — but confirm it's the **Road Wide** version (matches your DUB Wide crank), not the standard Road. A standard-width DUB BB under a Wide crank never fully stops creaking; if it's the wrong one, replace it with the Road Wide.
+4. Clean, fresh anti-seize on threads, reinstall, torque **35–50 N·m**, per the cup arrows.
 
 ### Step 5 — Reassemble
 
 1. Thin film of grease on the spindle splines and the non-drive arm bore.
 2. Slide the drive-side crank + spindle through the shell.
-3. Fit the non-drive arm. 8 mm hex, torque the crank bolt to **38–54 N·m**.
+3. Fit the non-drive arm. 8 mm hex, torque the crank bolt to **54 N·m**.
 4. **Set preload:** thread the collar in by hand until it just contacts — **no lateral crank rock, cranks still spin freely**. Then tighten the clamp screw just enough to hold it (~1.5 N·m). If your crank uses non-drive pinch bolts instead, torque those to spec (~8–9 N·m).
 5. Reinstall the chain (new Flattop quick link if broken).
 
@@ -137,7 +140,7 @@ Work these in order; retest after each:
 
 Record in `specs.md` or a maintenance log:
 - Date, symptom, what was found, what fixed it
-- Installed BB brand/model + confirmation it is DUB Wide spec
+- Installed BB: SRAM DUB T47 — confirm Road vs **Road Wide**
 - Final torque values used
 - Any parts ordered / replaced
 

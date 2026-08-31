@@ -166,7 +166,7 @@
 
   <dl class="titleblock">
     <div class="row"><dt>Bike</dt><dd>Trek Checkpoint SL 6 AXS Gen 2 (2023), 54&nbsp;cm</dd></div>
-    <div class="row"><dt>Assembly</dt><dd>SRAM Rival 1 AXS crank · DUB&nbsp;Wide spindle · T47 threaded bottom bracket</dd></div>
+    <div class="row"><dt>Assembly</dt><dd>SRAM Rival 1 AXS crank · DUB&nbsp;Wide spindle · SRAM DUB <b>T47</b> bottom bracket (cup reads "SRAM"/"DUB" — confirm Road vs Road&nbsp;Wide)</dd></div>
     <div class="row"><dt>Symptom</dt><dd>Sharp creak at crank 3&nbsp;/&nbsp;9 o'clock, <b>under load only</b>. Reproducible statically (clipped in, braced, brakes locked). Onset immediately after a shop BB replacement.</dd></div>
     <div class="row"><dt>Ruled out</dt><dd>Pedals and cleats — confirmed by left↔right swap, no change.</dd></div>
     <div class="row"><dt>Doc rev</dt><dd class="mono">1 &nbsp;·&nbsp; 2026-08-30</dd></div>
@@ -300,7 +300,13 @@
     <li>T25 Torx bit</li>
     <li>2&nbsp;mm and 2.5&nbsp;mm hex keys — check which the preload clamp screw takes</li>
     <li>Low-range torque wrench, 1–10&nbsp;N·m, for chainring bolts</li>
-    <li><b>T47 BB wrench matching the installed BB brand</b> — read the brand off the cup face first (SRAM DUB T47, Wheels Mfg, Praxis, Kogel all use different interfaces)</li>
+    <li><b>T47 BB wrench — the installed BB is a SRAM DUB T47</b> (cup reads "SRAM"/"DUB"):
+      <ul class="sub">
+        <li>Use <b>Park Tool BBT-47-16</b> — the 16-notch <b>52–54&nbsp;mm</b> T47 tool that lists "SRAM T47 DUB". 3/8" drive (takes a torque wrench). Equivalents: SRAM's own DUB T47 tool, or 16-notch T47 tools from Wheels Mfg / Unior / Birzman.</li>
+        <li><b>Not</b> the 44&nbsp;mm external tool (Park <b>BBT-69.4</b> / <b>BBT-79</b>) — same 16-notch pattern, wrong diameter; that fits DUB <b>BSA</b>, not T47.</li>
+        <li><b>Not</b> the 12-notch Park <b>BBT-47</b> (no "-16") — that's for Chris King ThreadFit.</li>
+      </ul>
+    </li>
     <li>Soft mallet · bright light · dental / bearing pick · calipers (optional)</li>
   </ul>
   <h3>Materials</h3>
@@ -321,8 +327,8 @@
   <table>
     <thead><tr><th>Fastener</th><th>Tool</th><th>Torque</th><th>Prep</th></tr></thead>
     <tbody>
-      <tr><td>T47 BB cups</td><td class="spec">T47 wrench</td><td class="spec">35–45 N·m</td><td>anti-seize on threads</td></tr>
-      <tr><td>DUB crank bolt (self-extracting)</td><td class="spec">8 mm hex</td><td class="spec">38–54 N·m</td><td>light grease</td></tr>
+      <tr><td>T47 BB cups</td><td class="spec">Park BBT-47-16</td><td class="spec">35–50 N·m, per cup arrows</td><td>anti-seize on threads</td></tr>
+      <tr><td>DUB crank bolt (self-extracting)</td><td class="spec">8 mm hex</td><td class="spec">54 N·m</td><td>light grease</td></tr>
       <tr><td>Preload adjuster collar</td><td class="spec">hand</td><td class="spec">snug — no play, cranks spin free</td><td>—</td></tr>
       <tr><td>Preload collar clamp screw</td><td class="spec">2 / 2.5 mm hex</td><td class="spec">just snug (~1.5 N·m) — don't force</td><td>—</td></tr>
       <tr><td>Chainring bolts ×8 (behind spider)</td><td class="spec">T25</td><td class="spec">~2.5 N·m (confirm)</td><td>blue threadlocker</td></tr>
@@ -388,10 +394,10 @@
   <div class="step">
     <div class="head"><span class="tag">STEP 4</span><h3>T47 bottom bracket cups</h3></div>
     <ol class="sub">
-      <li>Put the T47 wrench on each cup, gently test in the <b>loosening</b> direction. Movement before ~35 N·m = it was under-torqued. <b>Drive-side cup is reverse (left-hand) thread.</b></li>
+      <li>Put the <b>BBT-47-16</b> on each cup, gently test in the <b>loosening</b> direction. Movement before ~35 N·m = it was under-torqued. Thread direction: follow the <b>directional arrows stamped on the SRAM cups</b> (drive side is typically left-hand / reverse).</li>
       <li>Remove both cups. Inspect: threads must carry grease/anti-seize — <b>bone-dry = the classic T47 creak</b>. No galling, cross-threading, or alloy shavings; cups should thread back most of the way by hand.</li>
-      <li><b>Confirm the part.</b> Your crank is DUB&nbsp;<b>Wide</b>. The BB must be a DUB Wide-compatible T47. A standard road DUB BB under a Wide crank never fully stops creaking. If the installed unit isn't clearly Wide-spec, replace it with one that is.</li>
-      <li>Clean, fresh anti-seize, reinstall, torque 35–45 N·m (drive side reverse thread).</li>
+      <li><b>Confirm the variant.</b> The cup reads "SRAM"/"DUB" — confirm it's the <b>Road Wide</b> version (matches your DUB Wide crank), not the standard Road. A standard-width DUB BB under a Wide crank never fully stops creaking; if it's wrong, fit the Road Wide.</li>
+      <li>Clean, fresh anti-seize, reinstall, torque <b>35–50 N·m</b> per the cup arrows.</li>
     </ol>
     <div class="note stop">
       <span class="lbl">Prime suspect</span>
@@ -404,7 +410,7 @@
     <ol class="sub">
       <li>Thin film of grease on the spindle splines and the non-drive arm bore.</li>
       <li>Slide the drive-side crank + spindle through the shell. Fit the non-drive arm.</li>
-      <li>8&nbsp;mm hex, torque the crank bolt to 38–54 N·m.</li>
+      <li>8&nbsp;mm hex, torque the crank bolt to 54 N·m.</li>
       <li><b>Set preload:</b> thread the collar in by hand until it just contacts — <b>no lateral crank rock, cranks still spin freely</b>. Then nip the clamp screw just enough to hold it (~1.5 N·m). If your crank uses non-drive pinch bolts instead, torque those to ~8–9 N·m.</li>
       <li>Reinstall the chain (new Flattop quick link if broken).</li>
     </ol>
@@ -438,7 +444,7 @@
 
   <div class="step">
     <div class="head"><span class="tag">STEP 8</span><h3>Close-out log</h3></div>
-    <p>Record in <code>specs.md</code> or a maintenance log: date · symptom · what was found · what fixed it · installed BB brand/model and confirmation it is DUB Wide spec · final torque values · parts replaced.</p>
+    <p>Record in <code>specs.md</code> or a maintenance log: date · symptom · what was found · what fixed it · installed BB (SRAM DUB T47 — Road vs Road&nbsp;Wide?) · final torque values · parts replaced.</p>
   </div>
 
   <h2><span class="n">06</span> Most likely root causes</h2>

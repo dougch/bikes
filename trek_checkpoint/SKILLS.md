@@ -74,11 +74,13 @@ Status: ☐ — **active issue:** load creak at 3/9 o'clock after a shop BB swap
 
 - Skills: remove/install T47 cups, check for creak, re-grease threads, swap the
   DUB bearing preload/wave washer, diagnose DUB spindle play.
-- Gotchas: **T47 internal-bearing** shell, threaded (easy compared to press-fit).
-  This crank is **DUB Wide** — the BB must be DUB Wide-compatible; chainline
-  ~47.5 mm. Torque 35–45 Nm. Grease threads to kill creak.
-- Tools: T47 BB tool (16-notch, 44 mm — confirm which the installed brand needs),
-  torque wrench to 45 Nm, DUB grease, 8 mm hex for the crank bolt.
+- Gotchas: threaded T47 (easy compared to press-fit). Installed BB is a **SRAM DUB
+  T47** (cup reads "SRAM"/"DUB") — confirm Road vs **Road Wide** (crank is DUB Wide,
+  chainline ~47.5 mm). Cups torque **35–50 Nm** per the stamped arrows. Grease/anti-seize
+  threads to kill creak.
+- Tools: **Park BBT-47-16** (16-notch, 52–54 mm T47 tool — *not* the 44 mm BBT-69.4/
+  BBT-79, which is for DUB BSA; *not* the 12-notch BBT-47). Torque wrench to 50 Nm,
+  DUB grease, 8 mm hex for the crank bolt (54 Nm).
 
 ## 7. IsoSpeed decoupler
 Status: ☐
@@ -158,7 +160,7 @@ Status: ☐
 | Annually | Full strip, frame inspection (carbon armor, storage gasket), fork lower/bearing service |
 
 ## Tool kit gaps to fill
-- [ ] T47 BB tool matching the installed BB brand
+- [x] T47 BB tool — Park BBT-47-16 (SRAM DUB T47)
 - [ ] Flattop-specific chain wear gauge
 - [ ] SRAM DOT 5.1 bleed kit (Bleeding Edge)
 - [ ] SRAM chain-gap gauge
