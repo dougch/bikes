@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Claude Code / local tooling
+.claude/
+CLAUDE.local.md
+
+# Scratch / working files
+scratch/
+tmp/
+*.tmp
