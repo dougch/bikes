@@ -147,7 +147,6 @@ Service manuals:
 ---
 
 ## Open items to confirm
-- [ ] Exact stock handlebar model + width on the 54 cm
 - [ ] Stock crank arm length on 54 cm (172.5 vs 170)
 - [ ] Rotor mount type on both wheelsets (6-bolt vs Centerlock)
 - [ ] Headset bearing part numbers

@@ -1,8 +1,8 @@
-# Santa Cruz Stigmata (1st-gen aluminum) — race build
+# Santa Cruz Stigmata (1st-gen aluminum) 2009 — race build
 
 The original aluminum, cantilever-brake Santa Cruz Stigmata cyclocross frame, built up
 as a 1x, disc-front "mullet" gravel/CX **race bike**. Was the daily commuter; now raced.
-A keeper. The rear derailleur failed and is being repaired — nothing else pending.
+A keeper.
 
 ---
 
@@ -11,15 +11,13 @@ A keeper. The rear derailleur failed and is being repaired — nothing else pend
 | | |
 |---|---|
 | Frame | **Santa Cruz Stigmata**, 1st generation (TIG-welded aluminum, cantilever) |
-| Model year | **TBD** — original alu Stigmata ran ~2007–2011; confirm from records |
-| Frame size | **TBD** |
+| Model year | **2009**
+| Frame size | **56** |
 | Finish | gray anodized aluminum |
 | Bought | new **frameset** from **Colorado Cyclist** (Colorado Springs mail-order house; closed ~2024); owned from new by the current owner |
 | Frame serial | **recorded privately — deliberately kept OUT of this public repo.** Store it with insurance / personal records. |
-| Mileage | ~8,000+ mi |
+| Mileage | ~8,000+ mi as of 2024 |
 | Condition | one small dent in the top tube; anodizing worn near the head tube; otherwise normal wear. **Now raced — inspect the frame (esp. the dent, welds, dropouts) on a race-season schedule, not a commuter one.** |
-| Current issue | rear derailleur failure — being repaired |
-| Use | **gravel / CX racing** (was the daily commuter). No fenders. |
 
 ---
 
@@ -27,31 +25,17 @@ A keeper. The rear derailleur failed and is being repaired — nothing else pend
 
 - TIG-welded aluminum, nominally round-profile **Easton EA6X** tubing. Santa Cruz's
   entry into the US cyclocross boom; middle-of-the-road CX geometry, compact.
-- **Cantilever bosses front and rear** — never a disc frame. The front disc on this
+- **Cantilever bosses rear** — never a disc frame. The front disc on this
   build exists only because of an aftermarket fork (§3).
-- Shipped originally with an off-the-shelf carbon canti fork (year-dependent) — not
-  relevant here, replaced with the disc fork (§3).
-- **Bottom bracket standard: CONFIRM** — English threaded BSA 68 mm was typical for the
-  era, but late first-gen Stigmata may be **PF30**. This determines the FSA crank/BB
-  service parts, so verify before ordering anything.
-- Rear spacing: 130 mm QR road (confirm).
+- **Bottom bracket standard: ** — English threaded BSA 68 m
+- Rear spacing: 130 mm QR road
 
 ### Tire clearance — measured on this bike
 
 | End | Max fitted | Headroom | Notes |
 |---|---|---|---|
 | **Rear** (alu frame) | **40 mm tubeless** | **~2 mm** each side | No mud room. Aluminium — **cannot be cold-set / stretched**; 40 mm is the hard ceiling. Factory rating was ~35 mm knobby. |
-| **Front** (replaced fork) | ~**43 mm** | a few mm | Fork swap bought back some clearance vs. the rear. |
-
-- **Dry race setup:** 40 mm tubeless rear / up to 43 mm front.
-- **Wet or muddy race setup:** drop to a **35 mm** rear tire (kept ready to swap) so
-  packed grit and mud clear the chainstay/seatstay bridge. The rear is always the
-  limiting end.
-- A file-tread or low-profile 40 mm tire clears better than a knobby of the same
-  stated width — casings run wide, so measure the actual mounted width on *your* rims.
-
-Still to record: **model year, frame size, headset standard, seatpost diameter, BB
-standard, exact rear axle spacing.**
+| **Front** (replaced fork) | ~**43 mm** | a few mm | Fork swap bought back some clearance vs. the rear. 40mm fits with mud clearance |
 
 ---
 
@@ -69,18 +53,6 @@ Converted from the original 2×10: **front derailleur removed**, cassette swappe
 | Cassette | **12–32T, 10-speed** (was 12–28) | lower climbing gear for steep terrain |
 | Chain | 10-speed | any 10sp chain: SRAM PC-1050/1070, KMC X10 |
 
-### Rear derailleur replacement — options
-
-Force shifters are **Exact Actuation**, shared by SRAM **10-speed road *and* MTB**, so:
-
-- **12–32 needs a mid/long cage.** SRAM **Apex WiFLi** medium cage = 11–32 max, 37T
-  wrap — an exact fit for this cassette using road parts.
-- SRAM **10-speed MTB** (X.7 / X.9 / X.0), long cage — handles 12–32 easily and leaves
-  room to go 11–36 later. *(SRAM 11-speed MTB is a different pull — not compatible.)*
-- A short-cage road mech (Rival/Force/Apex) tops out around 28–30T — **too small for
-  the 12–32**, so whatever failed was almost certainly mid/long already.
-
-Record what the shop installs: model, cage length, max cog, total capacity.
 
 ### 1x setup notes
 - Chain line: a road 1x wants the ring roughly centred; a 38–42T **narrow-wide** is the
@@ -115,10 +87,6 @@ Record what the shop installs: model, cage length, max cog, total capacity.
   spring tension; straddle height sets power vs clearance (lower yoke = more power).
 - The rear rim is a **wear item** braking on wet grit — check the rim wear indicator /
   measure sidewall thickness periodically (the custom rear wheel is worth keeping, §4).
-
-### Consumables
-- New brake cables and bar tape were done recently — log the date. Front disc run
-  benefits from compressionless housing.
 
 ---
 
@@ -159,8 +127,6 @@ Record what the shop installs: model, cage length, max cog, total capacity.
 
 ## 5. Wet / muddy race setup
 
-No fenders — it's a race bike now. The wet-weather answer is tires, not mudguards:
-
 - Swap the rear to the **35 mm** tire kept on hand. That restores mud clearance around
   the chainstay and seatstay bridge; a 40 mm packs up with grit and can lock the wheel.
 - Front stays at race width (fork has room).
@@ -172,20 +138,10 @@ No fenders — it's a race bike now. The wet-weather answer is tires, not mudgua
 
 ## 6. Open items to record
 
-- [ ] Frame: model year, size, headset standard, seatpost diameter
-- [ ] **Bottom bracket standard — BSA threaded vs PF30** (blocks crank/BB service parts)
-- [ ] Rear axle spacing (130 mm QR assumed)
 - [ ] 1x chainring: single ring size, narrow-wide or not, chain guide fitted?
-- [ ] Rear derailleur the shop installs (model, cage, max cog, capacity) + what failed
 - [ ] FSA crank model
-- [ ] Avid BB7 front: **Road or Mountain?** + rotor size
 - [ ] White Industries rear hub model + last service date
-- [ ] Rear wheel: rim (model + internal width), spoke count, spoke lengths, build date
 - [ ] Front rim internal width (for mounted tire width)
-- [ ] Tubeless conversion: kit/tape brand + width used, valve type, install date, sealant
-- [ ] Front fork: still the Winwood, or a later replacement? (measured ~43 mm clearance)
-- [ ] Brake cable / bar tape install date
-- [ ] Race tire choices — dry (40 mm model) and wet (35 mm model)
 
 ## Sources
 
