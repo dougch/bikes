@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dougch//MFG CX 2026 Cat 4 Male 50+//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MFG CX #1 - Beach Party at Silver Lake - Cat 4 Male 50+
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:01-beach-party-silver-lake-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20260913T103500
+DTEND;TZID=America/Los_Angeles:20260913T113000
+SUMMARY:MFG CX #1 - Beach Party at Silver Lake - Cat 4 Male 50+
+LOCATION:Thornton A. Sullivan Park, 11405 Silver Lake Rd, Everett, WA 98208
+GEO:47.889414;-122.211069
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: Thornton A. Sullivan Park (
+ Silver Lake)\nAddress note: street address not on race page; coords from r
+ ace page\n\nRacer parking at the northwest end of the park. Team tent acce
+ ss road closes at 8:15 AM; cars near start/finish are stuck until 3:45 PM.
+  No alcohol at this venue.\n\nRegister/results: https://www.webscorer.com/
+ mfgcyclocross\nSchedule: https://mfgcyclocross.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

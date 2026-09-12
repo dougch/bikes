@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dougch//MFG CX 2026 Cat 4 Male 50+//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MFG Cyclocross 2026 - Cat 4 Male 50+
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:01-beach-party-silver-lake-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20260913T103500
+DTEND;TZID=America/Los_Angeles:20260913T113000
+SUMMARY:MFG CX #1 - Beach Party at Silver Lake - Cat 4 Male 50+
+LOCATION:Thornton A. Sullivan Park, 11405 Silver Lake Rd, Everett, WA 98208
+GEO:47.889414;-122.211069
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: Thornton A. Sullivan Park (
+ Silver Lake)\nAddress note: street address not on race page; coords from r
+ ace page\n\nRacer parking at the northwest end of the park. Team tent acce
+ ss road closes at 8:15 AM; cars near start/finish are stuck until 3:45 PM.
+  No alcohol at this venue.\n\nRegister/results: https://www.webscorer.com/
+ mfgcyclocross\nSchedule: https://mfgcyclocross.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:02-north-40-lemay-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20260927T103500
+DTEND;TZID=America/Los_Angeles:20260927T113000
+SUMMARY:MFG CX #2 - North 40 at LeMay - Cat 4 Male 50+
+LOCATION:14601 4th Ave E, Tacoma, WA 98445
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: LeMay Car Collection - Nort
+ h 40\nAddress note: street address published on race page\n\nGravel/grass 
+ parking on the north and northwest sides; tight, carpool. Approach passes 
+ through a residential area and an apparent private drive - keep going. Inf
+ ield tents up by 8:30 AM, down after 3:45 PM.\n\nRegister/results: https:/
+ /www.webscorer.com/mfgcyclocross\nSchedule: https://mfgcyclocross.bike/ser
+ ies-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:03-barnburner-steilacoom-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20261011T103500
+DTEND;TZID=America/Los_Angeles:20261011T113000
+SUMMARY:MFG CX #3 - Barnburner at Steilacoom - Cat 4 Male 50+
+LOCATION:Fort Steilacoom Park, 8714 87th Ave SW, Lakewood, WA 98498
+GEO:47.1720871;-122.5626644
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: Fort Steilacoom Park\nAddre
+ ss note: street address not on race page; coords from race page\n\nAmple p
+ arking in the grass field and dedicated lots on the way in. Roughly an hou
+ r south of Seattle.\n\nRegister/results: https://www.webscorer.com/mfgcycl
+ ocross\nSchedule: https://mfgcyclocross.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:04-magnuson-park-cross-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20261025T103500
+DTEND;TZID=America/Los_Angeles:20261025T113000
+SUMMARY:MFG CX #4 - Magnuson Park Cross - Cat 4 Male 50+
+LOCATION:Magnuson Park, 7400 Sand Point Way NE, Seattle, WA 98115
+GEO:47.676796;-122.250351
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: Magnuson Park\nAddress note
+ : street address not on race page; coords from race page\n\nPark in E1 or 
+ E5. Lot E4 is closest but closes at 8:30 AM and does not release until ~4 
+ PM. No parking on the road or in E3. Stay on pavement - no riding through 
+ the wetlands or on Kite Hill.\n\nRegister/results: https://www.webscorer.c
+ om/mfgcyclocross\nSchedule: https://mfgcyclocross.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:05-pumpkin-smash-swans-trail-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20261108T103500
+DTEND;TZID=America/Los_Angeles:20261108T113000
+SUMMARY:MFG CX #5 - Pumpkin Smash CX at Swans Trail Farms - Cat 4 Male 50+
+LOCATION:7301 Rivershore Rd, Snohomish, WA 98290
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: Swans Trail Farms\nAddress 
+ note: street address published on race page\n\nParking in the grass field 
+ on the north end; follow MFG signs. No vehicle access to the team tent fie
+ ld. Working farm - bring boots. Barn area is taped off.\n\nRegister/result
+ s: https://www.webscorer.com/mfgcyclocross\nSchedule: https://mfgcyclocros
+ s.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:06-woodland-park-gp-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20261122T103500
+DTEND;TZID=America/Los_Angeles:20261122T113000
+SUMMARY:MFG CX #6 - Woodland Park Gran Prix - Cat 4 Male 50+
+LOCATION:Woodland Park, 1000 N 50th St, Seattle, WA 98103
+GEO:47.66489;-122.34487
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 1:15 PM\n\nVenue: Woodland Park\nAddress note:
+  street address not on race page; coords from race page\n\nLot at the sout
+ hwest corner, west of registration, is best but fills early. Neighborhood 
+ streets and other park lots also work. Loop road is gear drop-off only, be
+ fore 8:30 AM or after 4 PM.\n\nRegister/results: https://www.webscorer.com
+ /mfgcyclocross\nSchedule: https://mfgcyclocross.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

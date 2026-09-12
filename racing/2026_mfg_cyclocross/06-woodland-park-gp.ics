@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dougch//MFG CX 2026 Cat 4 Male 50+//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MFG CX #6 - Woodland Park Gran Prix - Cat 4 Male 50+
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:06-woodland-park-gp-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20261122T103500
+DTEND;TZID=America/Los_Angeles:20261122T113000
+SUMMARY:MFG CX #6 - Woodland Park Gran Prix - Cat 4 Male 50+
+LOCATION:Woodland Park, 1000 N 50th St, Seattle, WA 98103
+GEO:47.66489;-122.34487
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 1:15 PM\n\nVenue: Woodland Park\nAddress note:
+  street address not on race page; coords from race page\n\nLot at the sout
+ hwest corner, west of registration, is best but fills early. Neighborhood 
+ streets and other park lots also work. Loop road is gear drop-off only, be
+ fore 8:30 AM or after 4 PM.\n\nRegister/results: https://www.webscorer.com
+ /mfgcyclocross\nSchedule: https://mfgcyclocross.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

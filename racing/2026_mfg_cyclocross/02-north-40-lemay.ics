@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dougch//MFG CX 2026 Cat 4 Male 50+//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MFG CX #2 - North 40 at LeMay - Cat 4 Male 50+
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:02-north-40-lemay-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20260927T103500
+DTEND;TZID=America/Los_Angeles:20260927T113000
+SUMMARY:MFG CX #2 - North 40 at LeMay - Cat 4 Male 50+
+LOCATION:14601 4th Ave E, Tacoma, WA 98445
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: LeMay Car Collection - Nort
+ h 40\nAddress note: street address published on race page\n\nGravel/grass 
+ parking on the north and northwest sides; tight, carpool. Approach passes 
+ through a residential area and an apparent private drive - keep going. Inf
+ ield tents up by 8:30 AM, down after 3:45 PM.\n\nRegister/results: https:/
+ /www.webscorer.com/mfgcyclocross\nSchedule: https://mfgcyclocross.bike/ser
+ ies-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

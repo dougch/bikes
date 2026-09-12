@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dougch//MFG CX 2026 Cat 4 Male 50+//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MFG CX #5 - Pumpkin Smash CX at Swans Trail Farms - Cat 4 Male
+  50+
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:05-pumpkin-smash-swans-trail-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20261108T103500
+DTEND;TZID=America/Los_Angeles:20261108T113000
+SUMMARY:MFG CX #5 - Pumpkin Smash CX at Swans Trail Farms - Cat 4 Male 50+
+LOCATION:7301 Rivershore Rd, Snohomish, WA 98290
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: Swans Trail Farms\nAddress 
+ note: street address published on race page\n\nParking in the grass field 
+ on the north end; follow MFG signs. No vehicle access to the team tent fie
+ ld. Working farm - bring boots. Barn area is taped off.\n\nRegister/result
+ s: https://www.webscorer.com/mfgcyclocross\nSchedule: https://mfgcyclocros
+ s.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

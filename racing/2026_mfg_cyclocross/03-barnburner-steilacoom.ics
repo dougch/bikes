@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dougch//MFG CX 2026 Cat 4 Male 50+//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MFG CX #3 - Barnburner at Steilacoom - Cat 4 Male 50+
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:03-barnburner-steilacoom-cat4-50plus@mfgcyclocross.bike
+DTSTAMP:20260909T000000Z
+DTSTART;TZID=America/Los_Angeles:20261011T103500
+DTEND;TZID=America/Los_Angeles:20261011T113000
+SUMMARY:MFG CX #3 - Barnburner at Steilacoom - Cat 4 Male 50+
+LOCATION:Fort Steilacoom Park, 8714 87th Ave SW, Lakewood, WA 98498
+GEO:47.1720871;-122.5626644
+DESCRIPTION:Category: Cat 4 Male 50+\nStaging: 10:35 AM\nStart: 10:50 AM\nR
+ ace length: 40 min\nPodium: 12:00 PM\n\nVenue: Fort Steilacoom Park\nAddre
+ ss note: street address not on race page; coords from race page\n\nAmple p
+ arking in the grass field and dedicated lots on the way in. Roughly an hou
+ r south of Seattle.\n\nRegister/results: https://www.webscorer.com/mfgcycl
+ ocross\nSchedule: https://mfgcyclocross.bike/series-info/
+URL:https://mfgcyclocross.bike/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Cat 4 Male 50+ staging in 1 hour (10:35 AM)
+END:VALARM
+END:VEVENT
+END:VCALENDAR
