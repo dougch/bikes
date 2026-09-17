@@ -1,0 +1,89 @@
+# SKILLS.md — Cervelo S2 (2009) maintenance skills
+
+A running index of the mechanic skills relevant to this bike. Each entry: what it is,
+when to do it, the bike-specific gotchas, and tools needed. Check items off as you
+learn/do them. See `specs.md` for parts and open items — this bike's spec is still
+thin, so several entries below are placeholders pending confirmed parts.
+
+Status key: ☐ not done · ◐ done once, need practice · ☑ confident
+
+---
+
+## 1. Rim brake service (dual-pivot caliper)
+
+Status: ☐
+
+- Skills: pad swap, caliper centering, cable tension adjust, quick-release lever use.
+- Gotchas: caliper model unconfirmed (§2 open items) — confirm before ordering pads
+  (SRAM/Shimano compatible pad shapes differ slightly). Carbon rim braking (if the
+  wheels are carbon) needs carbon-specific pad compounds — confirm rim material.
+- Tools: 4/5mm hex, cable cutter, pad spreader, rim-appropriate brake pads.
+
+## 2. SRAM Force 10-speed drivetrain (2x)
+
+Status: ☐
+
+- Skills: index front/rear shifting, set FD high/low limits + trim, set RD limits +
+  B-tension, chain sizing for a 2x double.
+- Gotchas: SRAM 10-speed pre-dates Exact Actuation and Flattop chains — use the
+  correct-era chain (PC-1070/1090 or equivalent 10-speed SRAM/compatible chain), not
+  a 11/12-speed part. Confirm crank chainring sizes and cassette range before buying
+  consumables (see specs.md open items).
+- Tools: cable cutter, chain tool sized for 10-speed, T25, rear derailleur hanger
+  alignment gauge (standard RD setup tool, unrelated to the FD mount repair — see §4).
+
+## 3. Threaded bottom bracket (68mm BSA)
+
+Status: ☐
+
+- Skills: remove/install threaded BB cups, grease threads, check for creak/play.
+- Gotchas: stock shell is 68mm English threaded — confirm the currently-installed BB
+  is SRAM Force GXP threaded (fits directly, no adapter). Standard right-hand/
+  left-hand threading per BSA convention (drive-side reverse thread).
+- Tools: BB-specific socket/tool for whatever BB is actually installed (confirm
+  model), torque wrench.
+
+## 4. Carbon frame inspection (repaired FD mount)
+
+Status: ☐ — **priority: seat tube has a repaired area (integrated front-derailleur
+boss torn out and rebuilt, Ruckus Composites, Fixed: 2020-01-29) — inspect before hard
+use and periodically after.**
+
+- Skills: visual/tap-test inspection of the repaired seat-tube area for delamination
+  or new cracking, check the braze-on-style FD mounting bolt for security, know when
+  a repair needs re-inspection by a shop.
+- Gotchas: FD is confirmed **braze-on style** — the seat tube's aero teardrop profile
+  is non-round, which rules out any clamp-on FD here. Don't over-torque the FD
+  mounting bolt near the repair. If front shifting suddenly gets worse or the
+  derailleur sits at an odd angle/moves under load, stop and check the mount before
+  it damages the derailleur or re-opens the repair.
+- Tools: flashlight/inspection light, hex/torque wrench for the braze-on FD mounting
+  bolt, (optional) a shop follow-up if anything looks off.
+
+## 5. Rim wheel truing & hub service
+
+Status: ☐
+
+- Skills: true a wheel (radial + lateral), check spoke tension, hub bearing
+  play/service.
+- Gotchas: wheelset unconfirmed (specs.md open item) — fill in once known.
+- Tools: truing stand or in-frame truing, spoke wrench, hub-specific bearing tools.
+
+---
+
+## Recurring maintenance calendar (adjust to mileage)
+
+| Interval | Task |
+|---|---|
+| Every ride | Tire pressure, quick brake + shift check |
+| Monthly | Chain wear gauge, brake pad check, bolt-torque spot check |
+| ~3 months | Drivetrain deep clean, cable tension check |
+| ~6 months / 1 yr | Cable/housing replacement, BB service/inspect |
+| Annually | Full strip, frame inspection — **extra attention to the repaired hanger
+  area (§4)** |
+
+## Tool kit gaps to fill
+- [ ] Derailleur hanger alignment gauge
+- [ ] Correct-era (10-speed) chain tool / wear gauge
+- [ ] BB tool for the confirmed installed bottom bracket
+- [ ] Rim-appropriate brake pads (confirm rim material first)
