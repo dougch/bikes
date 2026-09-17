@@ -35,7 +35,7 @@ stretched — see `santacruz_stigmata/specs.md`), steel dropouts **can** be cold
 
 | Issue | Detail | Status |
 |---|---|---|
-| Chainring | SRAM Force **39T** — worn out: skips, won't hold the chain, can't climb | **Done — must replace** |
+| Chainring | **Shimano SG-X 34T** inner ring — worn out: skips under torque, drops chain, can't climb | **Open — must replace** |
 | Toe overlap | Geometry issue on this frame/size; front wheel can clip toe on tight turns | Open — see mitigation in §4 |
 | Head tube bearings | Were shot | **Fixed 2021** |
 | Bottom bracket | Replaced | **2025-08-19** — Shimano Ultegra BBR60, Hollowtech II, English threaded |
@@ -52,7 +52,7 @@ stretched — see `santacruz_stigmata/specs.md`), steel dropouts **can** be cold
 | Fork | **Bontrager** carbon/aluminum disc fork — stock/original, never replaced (model name not legible) |
 | Front brake | Avid BB7 mechanical disc (confirmed) |
 | Stem | Redshift 90 mm (**not** 1-1/4"; replaced OEM Easton 75 mm 6° C10) |
-| Drivetrain | SRAM Force, **2x10 speed** cassette 12x28 |
+| Drivetrain | Mixed build: **SRAM Force** shifters/rear derailleur, **Shimano Ultegra** front derailleur, **Shimano Ultegra FC-6650** compact crank (172.5mm arms, **110mm BCD confirmed by direct measurement**, 50T/34T SG-X rings, 9/10-speed) — **2x10 speed** cassette 12x28. |
 | Front wheel | Wide 29er disc wheel (not tubeless) |
 | Bottom bracket | Shimano Ultegra BBR60, Hollowtech II, English threaded (installed 2025-08-19) |
 | Rear spacing | 130 mm QR |
@@ -74,8 +74,9 @@ stretched — see `santacruz_stigmata/specs.md`), steel dropouts **can** be cold
   (matches the current front caliper — see §2); worth confirming the rear caliper too.
 - **Wheels:** 700c (622 mm BSD)
 - **Stock tire width:** ~34 mm (period spec — well under this bike's measured clearance)
-- **Stock groupset (varies by year):** Shimano 105 was common; SRAM Force 2x10 on this
-  bike may be an upgrade/alternate spec — worth confirming against the frame's model year
+- **Stock groupset (varies by year):** Shimano 105 was common; the current build is a
+  mixed-brand upgrade — SRAM Force shifters/rear derailleur, Shimano Ultegra front
+  derailleur and FC-6650 compact crank (see §2) — not a factory spec
 
 ### Geometry — a sizing note first
 
@@ -151,6 +152,8 @@ pulled from the frame or a size-matched chart.
 - [ ] Headset standard, seatpost diameter
 - [ ] Head tube angle, seat tube angle, chainstay length, BB drop, fork rake for this size (see §3)
 - [X] Front tire clearance 42 mm, but realistically, with mud a 700x40mm is the working maximum
+- [x] Crank BCD: **110mm, confirmed by direct measurement** (adjacent bolt spacing
+  64.7mm) — Shimano Ultegra FC-6650 compact crank (50/34, 10-speed) confirmed
 
 ## Sources
 - https://www.bikeradar.com/reviews/bikes/road-bikes/lemond-poprad-disc-review
