@@ -19,29 +19,32 @@ Status: ☐
   wheels are carbon) needs carbon-specific pad compounds — confirm rim material.
 - Tools: 4/5mm hex, cable cutter, pad spreader, rim-appropriate brake pads.
 
-## 2. SRAM Force 10-speed drivetrain (2x)
+## 2. SRAM AXS 12-speed drivetrain (2x, wireless)
 
 Status: ☐
 
-- Skills: index front/rear shifting, set FD high/low limits + trim, set RD limits +
-  B-tension, chain sizing for a 2x double.
-- Gotchas: SRAM 10-speed pre-dates Exact Actuation and Flattop chains — use the
-  correct-era chain (PC-1070/1090 or equivalent 10-speed SRAM/compatible chain), not
-  a 11/12-speed part. Confirm crank chainring sizes and cassette range before buying
-  consumables (see specs.md open items).
-- Tools: cable cutter, chain tool sized for 10-speed, T25, rear derailleur hanger
-  alignment gauge (standard RD setup tool, unrelated to the FD mount repair — see §4).
+- Skills: pair/set up AXS shifters + derailleurs in the AXS app, set FD/RD limits and
+  trim electronically, chain sizing for a 2x AXS double, battery swap/charge.
+- Gotchas: exact tier (Force/Red/Rival AXS) still TBD — confirm before ordering chain
+  or chainrings (specs.md open items). Needs a **Flattop 12-speed chain** (not the old
+  10-speed PC-1070/1090 chain from the original Force build) with a single-use
+  PowerLock. Rim-brake AXS: shifting is wireless but braking is still a normal cable
+  pull to the rim caliper — don't confuse this with a hydraulic bleed.
+- Tools: AXS app (phone), AXS charger, Flattop chain tool + spare PowerLocks, T25,
+  rear derailleur hanger alignment gauge (standard RD setup tool, unrelated to the FD
+  mount repair — see §4).
 
 ## 3. Threaded bottom bracket (68mm BSA)
 
 Status: ☐
 
 - Skills: remove/install threaded BB cups, grease threads, check for creak/play.
-- Gotchas: stock shell is 68mm English threaded — confirm the currently-installed BB
-  is SRAM Force GXP threaded (fits directly, no adapter). Standard right-hand/
-  left-hand threading per BSA convention (drive-side reverse thread).
+- Gotchas: stock shell is 68mm English threaded — the AXS crank uses a **DUB**
+  spindle, so this should now be a **SRAM DUB threaded (BSA)** BB, not the older
+  GXP from the original Force build. Confirm which is actually installed. Standard
+  right-hand/left-hand threading per BSA convention (drive-side reverse thread).
 - Tools: BB-specific socket/tool for whatever BB is actually installed (confirm
-  model), torque wrench.
+  model — DUB threaded BBs use a different tool than GXP), torque wrench.
 
 ## 4. Carbon frame inspection (repaired FD mount)
 
@@ -84,6 +87,7 @@ Status: ☐
 
 ## Tool kit gaps to fill
 - [ ] Derailleur hanger alignment gauge
-- [ ] Correct-era (10-speed) chain tool / wear gauge
-- [ ] BB tool for the confirmed installed bottom bracket
+- [ ] Flattop 12-speed chain tool / wear gauge + spare PowerLocks
+- [ ] AXS charger
+- [ ] BB tool for the confirmed installed bottom bracket (DUB threaded, expected)
 - [ ] Rim-appropriate brake pads (confirm rim material first)
