@@ -1,8 +1,9 @@
 # Cervelo S2 (2009) — 56cm
 
-Full-carbon aero road bike, rim brake, 56cm. Drivetrain upgraded in one shot to SRAM
-Force 10-speed (still a 2x double, all parts from the same Force groupset). Frame has
-been through a carbon repair on the seat tube's integrated front-derailleur mount —
+Full-carbon aero road bike, rim brake, 56cm, bought new as an unbuilt frameset.
+Current drivetrain: **SRAM AXS, 12-speed, wireless** (2x, rim brake), upgraded from
+the original build's SRAM Force 10-speed; new rear wheel to run the AXS/XDR cassette.
+Frame has a carbon repair on the seat tube's integrated front-derailleur mount —
 **Fixed: 2020-01-29 by Ruckus Composites, LLC.**
 
 ---
@@ -15,7 +16,7 @@ been through a carbon repair on the seat tube's integrated front-derailleur moun
 | Model year | **2009** |
 | Frame size | **56cm** |
 | Frame repair | Integrated front-derailleur mount (molded into the seat tube — carbon's equivalent of a brazed-on FD boss) torn off. **Fixed: 2020-01-29**, Ruckus Composites, LLC (Portland, OR) |
-| Current drivetrain | **SRAM Force, 10-speed, 2x** (full groupset swap, all parts matched-tier) |
+| Current drivetrain | **SRAM AXS, 12-speed, wireless, 2x** — upgraded from the original-build SRAM Force 10-speed; new rear wheel added for the XDR-driver AXS cassette |
 
 ---
 
@@ -32,13 +33,14 @@ been through a carbon repair on the seat tube's integrated front-derailleur moun
 
 | Item | Spec |
 |---|---|
-| Drivetrain | **SRAM Force, 2x10-speed** — shifters, front derailleur, rear derailleur, crank, cassette all from one Force groupset generation (tier-matched, installed together) |
-| Front derailleur mount | Integrated seat-tube boss (aero teardrop tube, not round — rules out clamp-on), repaired 2020-01-29. FD is **braze-on-style SRAM Force** |
-| Crank | SRAM Force, 10-speed era — chainring sizes, arm length **TBD** |
-| Bottom bracket | Stock shell is **68mm BSA (English) threaded** (see §3) — confirm current BB is SRAM Force GXP threaded (fits BSA 68mm directly, no adapter needed) |
-| Brakes | Rim brake (frame/fork are rim-brake only on 2009 S2) — caliper model **TBD**, likely swapped to SRAM Force dual-pivot as part of the groupset change, or kept the original — confirm |
-| Cassette | SRAM Force 10-speed — tooth range **TBD** |
-| Wheels/tires | **TBD** |
+| Drivetrain | **SRAM AXS, 2x12-speed, wireless** — shifters, front derailleur, rear derailleur all AXS. **Exact tier (Force AXS / Red AXS / Rival AXS) TBD** |
+| Front derailleur mount | Integrated seat-tube boss (aero teardrop tube, not round — rules out clamp-on), repaired 2020-01-29. FD is **braze-on-style SRAM AXS** |
+| Crank | SRAM AXS — chainring sizes, arm length **TBD** |
+| Bottom bracket | Stock shell is **68mm BSA (English) threaded** (see §3) — AXS cranks use a **DUB** spindle; confirm installed BB is SRAM DUB threaded (BSA), not the older GXP |
+| Brakes | Rim brake — AXS rim-brake groupsets use a standard cable-actuated caliper (only shifting is wireless); caliper model **TBD** |
+| Cassette | SRAM AXS, XDR driver body, 12-speed — exact range **TBD** ("10-3?" — likely 10-33 or 10-36, confirm) |
+| Rear wheel | New wheel added for the AXS build — needed an **XDR freehub** (12-speed AXS cassettes don't fit the old 10-speed driver). Model **TBD** |
+| Front wheel/tires | **TBD** |
 
 ---
 
@@ -49,13 +51,10 @@ been through a carbon repair on the seat tube's integrated front-derailleur moun
 - **Fork:** 3T carbon (stock trim-dependent)
 - **Bottom bracket shell:** **68mm BSA (English) threaded** — *not* BBright (BBright
   wasn't introduced on Cervelo's S-series until later models, ~2010+ S3)
-- **Stock groupset:** varied by trim level the S2 was sold in — 105, Rival, or
-  Dura-Ace 7900 depending on build kit. **This bike's original stock trim is
-  unconfirmed** — current SRAM Force build is a full replacement regardless.
-- **Example full build (Dura-Ace 7900 trim, for reference only — not necessarily
-  this bike):** Dura-Ace 7900 shifters/derailleurs/crank (53/39, 172.5mm) and
-  calipers, Ultegra 6700 cassette (12-25, 10sp), DT Swiss wheels, 3T carbon bar/stem,
-  Cervelo carbon seatpost, Fizik Arione saddle.
+- **Not applicable here:** Cervelo sold the S2 as complete bikes in several trims
+  (105/Rival/Dura-Ace 7900) — but **this frame was bought new and unbuilt**, so there
+  was no factory stock groupset. Doug's original build was **SRAM Force, 2x10-speed**;
+  since upgraded to the current SRAM AXS 12-speed wireless build (see §2).
 
 ### Geometry — 56cm (2009 S2; do not blend with other model years — see note below)
 
@@ -85,12 +84,13 @@ S2 source** — confirm the year on any figure before trusting it. See
 
 - [ ] Head tube angle / seat tube angle (source data was garbled — re-pull)
 - [ ] Chainstay, wheelbase, BB drop, fork rake for 56cm 2009
-- [ ] Current BB: confirm SRAM Force GXP threaded (68mm BSA)
+- [ ] AXS tier: Force AXS / Red AXS / Rival AXS
+- [ ] Current BB: confirm SRAM DUB threaded (68mm BSA)
 - [ ] Crank chainring sizes, arm length
-- [ ] Cassette tooth range
-- [ ] Brake calipers — original or swapped as part of Force conversion
-- [ ] Wheelset, tires
-- [ ] Stock trim this bike originally shipped as (105/Rival/Dura-Ace)
+- [ ] Cassette exact range (10-33 vs 10-36 vs other)
+- [ ] Rear wheel model (XDR driver, added for the AXS upgrade)
+- [ ] Brake calipers — model, original vs. replaced
+- [ ] Front wheel, tires (both wheels)
 - [ ] Frame serial (keep OUT of this public repo — see [[bikes-repo-public]])
 
 ## Sources
