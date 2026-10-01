@@ -21,8 +21,8 @@ Sources).
 | Frame size | **56cm** |
 | Fork | **Bontrager** carbon/aluminum, disc-specific — **stock/original, never replaced**. Branding visible on the fork; exact model name not legible/confirmed. |
 | Rear spacing | **130 mm** (QR) — planned cold-set to **135 mm** |
-| Current use | commuter / light gravel |
-| Condition | drivetrain at end of life (chainring shot); frame needs rust prevention (frame saver) |
+| Current use | commuter / light gravel — year-round incl. winter, ~4 days/week in rain/snow; wears out ~1 chain per season |
+| Condition | drivetrain refreshed (chain, 34T ring, cassette — 2026-09); frame needs rust prevention (frame saver) |
 | Planned | full rebuild, targeted **summer 2027**, restomod
 
 **Why a steel frame matters here:** unlike the aluminum Stigmata (which cannot be
@@ -35,7 +35,9 @@ stretched — see `santacruz_stigmata/specs.md`), steel dropouts **can** be cold
 
 | Issue | Detail | Status |
 |---|---|---|
-| Chainring | **Shimano SG-X 34T** inner ring — worn out: skips under torque, drops chain, can't climb | **Open — must replace** |
+| Chainring | **Shimano SG-X 34T** inner ring — was worn out; replaced with an identical new SG-X 34T | **Fixed: 2026-09-28** |
+| Chain | New 10sp chain (shop-installed) | **Replaced: ~2026-09-14** |
+| Cassette | **11–36T 10sp** — was skipping; replaced with an identical new 11–36T | **Fixed: 2026-09-30** |
 | Toe overlap | Geometry issue on this frame/size; front wheel can clip toe on tight turns | Open — see mitigation in §4 |
 | Head tube bearings | Were shot | **Fixed 2021** |
 | Bottom bracket | Replaced | **2025-08-19** — Shimano Ultegra BBR60, Hollowtech II, English threaded |
@@ -52,7 +54,7 @@ stretched — see `santacruz_stigmata/specs.md`), steel dropouts **can** be cold
 | Fork | **Bontrager** carbon/aluminum disc fork — stock/original, never replaced (model name not legible) |
 | Front brake | Avid BB7 mechanical disc (confirmed) |
 | Stem | Redshift 90 mm (**not** 1-1/4"; replaced OEM Easton 75 mm 6° C10) |
-| Drivetrain | Mixed build: **SRAM Force** shifters/rear derailleur, **Shimano Ultegra** front derailleur, **Shimano Ultegra FC-6650** compact crank (172.5mm arms, **110mm BCD confirmed by direct measurement**, 50T/34T SG-X rings, 9/10-speed) — **2x10 speed** cassette 12x28. |
+| Drivetrain | Mixed build: **SRAM Force** shifters, **SRAM Apex** long-cage rear derailleur, **Shimano Ultegra** front derailleur, **Shimano Ultegra FC-6650** compact crank (172.5mm arms, **110mm BCD confirmed by direct measurement**, 50T/34T SG-X rings, 9/10-speed) — **2x10 speed** cassette 11x36. |
 | Front wheel | Wide 29er disc wheel (not tubeless) |
 | Bottom bracket | Shimano Ultegra BBR60, Hollowtech II, English threaded (installed 2025-08-19) |
 | Rear spacing | 130 mm QR |
@@ -75,7 +77,7 @@ stretched — see `santacruz_stigmata/specs.md`), steel dropouts **can** be cold
 - **Wheels:** 700c (622 mm BSD)
 - **Stock tire width:** ~34 mm (period spec — well under this bike's measured clearance)
 - **Stock groupset (varies by year):** Shimano 105 was common; the current build is a
-  mixed-brand upgrade — SRAM Force shifters/rear derailleur, Shimano Ultegra front
+  mixed-brand upgrade — SRAM Force shifters, SRAM Apex long-cage rear derailleur, Shimano Ultegra front
   derailleur and FC-6650 compact crank (see §2) — not a factory spec
 
 ### Geometry — a sizing note first
@@ -148,6 +150,8 @@ pulled from the frame or a size-matched chart.
 - [ ] Confirm frame size: seat tube likely **55 cm** (56 cm probably the effective top tube — see §3 sizing note)
 - [ ] Fork model name (Bontrager branding visible, no legible model — "Switchblade Elite" is an unconfirmed guess from period reviews)
 - [ ] Rear brake caliper model
+- [ ] Spare chain: **KMC X10** ordered (retailer product #117755), listed as 116 links — confirm count on arrival (need ≥ current chain's count); spare KMC 10sp Missing Link ordered
+- [ ] Count links on current chain (sizing target for spares)
 - [ ] BB shell width (68 mm vs 70 mm English) — needed to confirm Force22 BB part number
 - [ ] Headset standard, seatpost diameter
 - [ ] Head tube angle, seat tube angle, chainstay length, BB drop, fork rake for this size (see §3)
