@@ -35,10 +35,10 @@ Frame has a carbon repair on the seat tube's integrated front-derailleur mount �
 |---|---|
 | Drivetrain | **SRAM AXS, 2x12-speed, wireless** — shifters, front derailleur, rear derailleur all AXS. **Exact tier (Force AXS / Red AXS / Rival AXS) TBD** |
 | Front derailleur mount | Integrated seat-tube boss (aero teardrop tube, not round — rules out clamp-on), repaired 2020-01-29. FD is **braze-on-style SRAM AXS** |
-| Crank | SRAM AXS — chainring sizes, arm length **TBD** |
+| Crank | SRAM AXS, **46/33** chainrings (Doug, from memory — not yet confirmed by direct read) — arm length **TBD** |
 | Bottom bracket | Stock shell is **68mm BSA (English) threaded** (see §3) — AXS cranks use a **DUB** spindle; confirm installed BB is SRAM DUB threaded (BSA), not the older GXP |
 | Brakes | Rim brake — AXS rim-brake groupsets use a standard cable-actuated caliper (only shifting is wireless); caliper model **TBD** |
-| Cassette | SRAM AXS, XDR driver body, 12-speed — exact range **TBD** ("10-3?" — likely 10-33 or 10-36, confirm) |
+| Cassette | SRAM AXS, XDR driver body, 12-speed, **10-33** (Doug, from memory — not yet confirmed by direct read) |
 | Rear wheel | New wheel added for the AXS build — needed an **XDR freehub** (12-speed AXS cassettes don't fit the old 10-speed driver). Model **TBD** |
 | Front wheel/tires | **TBD** |
 
@@ -86,8 +86,8 @@ S2 source** — confirm the year on any figure before trusting it. See
 - [ ] Chainstay, wheelbase, BB drop, fork rake for 56cm 2009
 - [ ] AXS tier: Force AXS / Red AXS / Rival AXS
 - [ ] Current BB: confirm SRAM DUB threaded (68mm BSA)
-- [ ] Crank chainring sizes, arm length
-- [ ] Cassette exact range (10-33 vs 10-36 vs other)
+- [ ] Crank arm length; confirm 46/33 chainrings by direct read (currently from memory)
+- [ ] Confirm 10-33 cassette by direct read (currently from memory)
 - [ ] Rear wheel model (XDR driver, added for the AXS upgrade)
 - [ ] Brake calipers — model, original vs. replaced
 - [ ] Front wheel, tires (both wheels)
