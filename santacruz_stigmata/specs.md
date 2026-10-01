@@ -49,8 +49,8 @@ Converted from the original 2×10: **front derailleur removed**, cassette swappe
 | Crank | FSA (model TBD) | originally **50/34 compact** — after the 1x conversion the ring setup is **TBD**: single ring? which size? narrow-wide? |
 | Chain retention | **TBD** | a road double with no FD wants a chain keeper or narrow-wide ring — confirm what's fitted |
 | Front derailleur | **removed** | braze-on tab / clamp still on frame; note mount type in case of reversal or resale |
-| Rear derailleur | SRAM, long cage ("long XS" per old notes — exact model unconfirmed) | **Fixed: 2026-09-17** — back in service, no known issue pending |
-| Cassette | **12–32T, 10-speed** (was 12–28) | lower climbing gear for steep terrain |
+| Rear derailleur | SRAM, long cage ("long XS" per old notes) — **not a standard road mech**; exact model unconfirmed | **Fixed: 2026-09-17** — back in service, no known issue pending |
+| Cassette | **12–32T, 10-speed** (was 12–28); **11–32T 10sp** going on the new 700c road rear wheel | 11–32 over 11–36 for CX: tighter steps, same 32T low gear, no chain-length change |
 | Chain | 10-speed | any 10sp chain: SRAM PC-1050/1070, KMC X10 |
 
 
