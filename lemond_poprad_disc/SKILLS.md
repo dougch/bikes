@@ -18,17 +18,18 @@ Status: ☐ — **open issue**, see specs.md §1
 - Tools: Frame Saver (or equivalent) with the long spray wand, rags, a way to plug/mask
   threaded holes before spraying.
 
-## 2. Crankset & chainring replacement (SRAM Force, worn 39T)
-Status: ☐ — **active issue**, chainring is done (skips, won't hold chain), see specs.md §1
+## 2. Drivetrain wear parts — chain, chainring, cassette
+Status: ☑ — SG-X 34T ring **Fixed: 2026-09-28**; 11–36 cassette **Fixed: 2026-09-30** (specs.md §1)
 
-- Skills: pull the crank (self-extracting bolt or crank puller depending on BB
-  interface), swap chainring(s), re-torque crank bolt, check chainline against the new
-  Ultegra BBR60 BB.
-- Gotchas: this crank/chainring gets replaced for real once the Force22 groupset lands
-  (specs.md §5) — a like-for-like 39T swap now is a stopgap only if the bike needs to
-  ride before the rebuild.
-- Tools: crank puller (if square-taper/older interface) or 8mm hex for a self-extractor,
-  torque wrench, chain whip/lockring tool if the BB itself needs to come out too.
+- Chain is a consumable on this bike (~1 per season, year-round wet commuting). No
+  chain-care routine — the one task that matters is the **monthly wear check**:
+  replace the chain at **0.5%** (10sp). Swapping on time keeps the cassette and 34T ring
+  going through several chains; running past ~0.75% is what forces a full
+  chain + ring + cassette replacement, like 2026-09.
+- Skills: chain wear check, chain sizing/install (10sp quick link), cassette swap,
+  chainring swap (Hollowtech II crank off/on, 110 BCD ring bolts).
+- Tools: chain wear gauge (0.5/0.75), chain tool, quick-link pliers, chain whip +
+  cassette lockring tool, crank cap tool + 5mm hex, torque wrench.
 
 ## 3. Bottom bracket service — English threaded (Shimano Ultegra BBR60)
 Status: ☑ — installed 2025-08-19
@@ -132,11 +133,11 @@ Status: ◐ — fenders fit well (DIY + 3D-printed), rear mount still slides (sp
 |---|---|
 | Every ride | Tire pressure, quick brake check, wipe chain |
 | Weekly (commuting) | Clean/relube drivetrain, check for play, wipe frame dry after wet rides |
-| Monthly | Chain wear gauge, brake pad check, bolt-torque spot check |
+| Monthly | **Chain wear gauge — replace at 0.5%**, brake pad check, bolt-torque spot check |
 | ~6 months | Headset play check, BB check, cable/housing inspection |
 | Annually | Frame-saver reapplication check, full drivetrain inspection, fender hardware check |
 
-## Rebuild checklist (summer 2026 target — see specs.md §7)
+## Rebuild checklist (summer 2027 target — see specs.md §4–5)
 - [ ] Apply frame saver (§1) — before cold-setting or repaint
 - [ ] Cold-set rear to 135 mm (§6)
 - [ ] Confirm BB shell width, order Force22-compatible BB (§3)
