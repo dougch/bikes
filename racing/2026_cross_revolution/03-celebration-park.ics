@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dougch//Cross Revolution 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CXR #3 - Celebration Park (Cole Meckle Memorial)
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:03-celebration-park@cross-revolution.com
+DTSTAMP:20260921T000000Z
+DTSTART;TZID=America/Los_Angeles:20261101T091500
+DTEND;TZID=America/Los_Angeles:20261101T095500
+SUMMARY:CXR #3 - Celebration Park (Cole Meckle Memorial)
+LOCATION:1095 S 324th St, Federal Way, WA 98003
+DESCRIPTION:Start: 9:15 AM\nRace length: 40 min\n(No separate staging time 
+ published by the organizer -- arrive with enough buffer to register/pin up
+ /warm up before the start.)\n\nVenue: Celebration Park\nAddress note: stre
+ et address published on race page\n\nRun in memory of Cole Meckle.\n\nRegi
+ ster: https://www.bikereg.com/cross-revolution-2026-race-3-celebration-par
+ k\nResults: https://cross-revolution.com/results/\nSchedule: https://cross
+ -revolution.com/
+URL:https://cross-revolution.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Race in 1 hour (9:15 AM start -- no official staging time publi
+ shed)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -34,7 +34,7 @@ A keeper.
 
 | End | Max fitted | Headroom | Notes |
 |---|---|---|---|
-| **Rear** (alu frame) | **40 mm tubeless** | **~2 mm** each side | No mud room. Aluminium — **cannot be cold-set / stretched**; 40 mm is the hard ceiling. Factory rating was ~35 mm knobby. |
+| **Rear** (alu frame) | **40 mm tubeless** | **~2 mm** each side | No mud room. Aluminium — **cannot be cold-set / stretched**; 40 mm is the hard ceiling. Factory rating was ~35 mm knobby. With the current 35 mm race tire, about 4–5 mm each side (estimated, not measured). **Mud packing (2026-10-25, MFG Magnuson, wet):** a fist-sized ball of mud built up at the seat tube behind the rear tire on the 35 mm tire and dragged on it. |
 | **Front** (replaced fork) | ~**43 mm** | a few mm | Fork swap bought back some clearance vs. the rear. 40mm fits with mud clearance |
 
 ---
@@ -46,10 +46,10 @@ Converted from the original 2×10: **front derailleur removed**, cassette swappe
 | Part | Spec | Notes |
 |---|---|---|
 | Shifters | SRAM Force, DoubleTap | right shifter does all the work; left is now just a brake lever. **Exact Actuation** cable pull |
-| Crank | FSA (model TBD) | originally **50/34 compact** — after the 1x conversion the ring setup is **TBD**: single ring? which size? narrow-wide? |
-| Chain retention | **TBD** | a road double with no FD wants a chain keeper or narrow-wide ring — confirm what's fitted |
+| Crank | FSA (model TBD) | originally **50/34 compact** — now **1x 39T** single ring; narrow-wide or not **TBD** |
+| Chain retention | **Outboard guard** in the old big-ring position; **no inboard guide** (open) | inside drops (toward frame) unprotected — add an inner chain catcher or a two-sided keeper on the FD mount |
 | Front derailleur | **removed** | braze-on tab / clamp still on frame; note mount type in case of reversal or resale |
-| Rear derailleur | SRAM, long cage ("long XS" per old notes) — **not a standard road mech**; exact model unconfirmed | **Fixed: 2026-09-17** — back in service, no known issue pending |
+| Rear derailleur | **SRAM X5 10-speed** MTB mech (stylized "X5" logo reads like "XS"), **long cage** (~100 mm between pulley centres), non-clutch, Exact Actuation | **Fixed: 2026-09-17** — back in service. B-gap **7 mm** on the 32T (cranks backward) — **Fixed: 2026-10-24** (B-screw had been fully backed out) |
 | Cassette | **12–32T, 10-speed** (was 12–28); **11–32T 10sp** going on the new 700c road rear wheel | 11–32 over 11–36 for CX: tighter steps, same 32T low gear, no chain-length change |
 | Chain | 10-speed | any 10sp chain: SRAM PC-1050/1070, KMC X10 |
 
@@ -57,8 +57,10 @@ Converted from the original 2×10: **front derailleur removed**, cassette swappe
 ### 1x setup notes
 - Chain line: a road 1x wants the ring roughly centred; a 38–42T **narrow-wide** is the
   usual pick for a gravel/CX 1x with a 12–32.
-- Range on 40T × 12–32 ≈ 34–108 gear-inches. For CX racing a 38–40T is typical; for
-  gravel races with real climbing, 38T or a wider cassette (11–36 with an MTB mech).
+- Range on 39T, 700x35 (~27.2" wheel): × 12–32 ≈ **33–88 gear-inches**; × 11–32 (road
+  wheel) ≈ **33–96**. For CX racing a 38–40T is typical; for
+  gravel races with real climbing, 38T or a wider cassette (11–36 — the X5 long cage
+  should handle it; confirm chain length and B-gap).
 - 10sp road/MTB mechs are mostly **non-clutch** — chain security on rough race courses
   depends on the narrow-wide ring plus a **chain guide / top guide** on the old FD tab.
   A clutched 10sp MTB mech (e.g. later X9/X0 Type 2) is the bigger upgrade for racing.
@@ -122,9 +124,10 @@ Converted from the original 2×10: **front derailleur removed**, cassette swappe
     tire change; re-tape if it lifts at the valve or nipple holes. A dry, well-taped
     conversion can burp at very low pressure — keep race pressures sane for the tire width.
 - **Race tires:**
-  - Dry: **40 mm tubeless** rear (hard ceiling), up to ~43 mm front. File-tread /
-    low-profile for gravel; a proper CX tread for cross. Conti Terra speed
-  - Wet/mud: need to spec something
+  - **Current: WTB Cross Boss 700x35c TCS, front and rear** (see §5).
+  - Pressure: **15 / 18 psi F/R** (2026-10-25, MFG Magnuson, wet).
+  - Dry options: up to **40 mm** rear (hard ceiling), ~43 mm front. File-tread /
+    low-profile for gravel; a proper CX tread for cross. Conti Terra Speed.
 
 ---
 
@@ -138,6 +141,14 @@ up well enough in deep slop, the fallback would be a dedicated mud-spike tread
 (Vittoria Terreno T90 Mud, Donnelly PDX, IRC Serac CX Mud) — those mostly top out at
 33mm since they're built around the UCI-race-width market, and narrower also cuts
 through mud better than wider.
+
+**Mud packing at the seat tube (2026-10-25):** even on the 35 mm tire, mud packs
+between the seat tube and the rear tire and drags on it. Mitigations:
+- [ ] Before muddy races, spray silicone (or furniture polish) on the seat tube,
+  chainstays, seatstays and brake bridge. Keep it off the rear rim braking surface and
+  the front rotor.
+- [ ] Knock the mud off the seat tube by hand at dismounts or run-ups.
+- [ ] A 33 mm mud tire (fallback list above) for deep-mud days.
 
 Run with the Vittoria Air-Liner Gravel inserts (ordered 2026-09-13, one per wheel, ×2)
 front and rear — see §4 tubeless notes and the front-wheel roll-off incident above for
@@ -186,7 +197,7 @@ That reactivates the original diagnosis:
 
 ## 6. Open items to record
 
-- [ ] 1x chainring: single ring size, narrow-wide or not, chain guide fitted?
+- [ ] 1x chainring: ~~single ring size~~ (39T, confirmed 2026-10-04), narrow-wide or not; outboard guard fitted, **inboard guide still needed**
 - [ ] FSA crank model
 - [ ] White Industries rear hub model + last service date
 - [ ] Front rim internal width (for mounted tire width)

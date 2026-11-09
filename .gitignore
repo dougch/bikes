@@ -23,6 +23,13 @@ Desktop.ini
 .claude/
 CLAUDE.local.md
 
+# Race results / ride recordings (contain GPS tracks + HR; repo is public)
+*.fit
+*.FIT
+*.gpx
+*.tcx
+racing/**/results/
+
 # Scratch / working files
 scratch/
 tmp/

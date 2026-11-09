@@ -10,7 +10,8 @@ Official page: https://www.trekbikes.com/us/en_US/bikes/road-bikes/gravel-bikes/
 
 | Item | Stock | This bike |
 |---|---|---|
-| Crank | SRAM Rival, DUB, 40T | SRAM Rival **40T, DUB Wide**, 172.5 mm arms |
+| Crank | SRAM Rival, DUB, 40T | SRAM Rival **DUB Wide** (confirmed: printed on spindle, 2026-10-03), 172.5 mm arms, spindle fixed to **non-drive (left) arm**; likely D1 generation (arm date-coded 2022). Non-drive arm + spindle now a **SRAM Rival Quarq power meter** (fitted at the 2026-10 BB service) |
+| Chainring | SRAM Rival 40T | **Wolf Tooth 40T**, SRAM 8-bolt direct mount (aftermarket); bolts 4 N·m |
 | Seatpost | Bontrager rigid carbon, 27.2 mm | **RockShox Reverb AXS XPLR dropper, 75 mm travel, 27.2 mm** (wireless) |
 | Handlebar | Bontrager alloy gravel bar, ~44 cm (on 54 cm frame) | **48 cm wide** bar |
 | Pedals | none / basic | **Time ATAC** (clipless) |
@@ -32,7 +33,7 @@ Notes:
 ### Drivetrain (1x12, SRAM Rival XPLR AXS — wireless electronic)
 - **Shifters/controls:** SRAM Rival eTap AXS HRD (hydraulic disc, electronic)
 - **Crank:** SRAM Rival, DUB, **40T**, arm length by frame size (172.5 mm on 54–58 cm)
-- **Bottom bracket:** SRAM DUB **T47** (aftermarket replacement; cup reads "SRAM"/"DUB" — confirm Road vs **Road Wide**). Tool: **Park BBT-47-16** (16-notch, 52–54 mm — *not* the 44 mm BBT-69.4/BBT-79, that's for DUB BSA)
+- **Bottom bracket:** SRAM DUB **T47**, **85.5 mm shell** (measured 85.9 mm face to face, 2026-10-24) (aftermarket replacement; cup reads "SRAM"/"DUB"). At 85.5 SRAM makes separate Road (00.6418.033.000) and **Road Wide (00.6418.033.001)** BBs — must be Road Wide for this DUB Wide crank; installed variant unconfirmed. Bearing seal marking (read 2026-10-24): **CW-SRAM 078 6806W6LHV** (6806-series; not a part number for the BB variant). Load creak **Fixed: 2026-10-30** — dry threads + dirt in the shell (not cleaned at the shop install; old threadlocker residue in the drive-side threads); bearings smooth, no play, reused; shell cleaned, threads greased, cups at **35 N·m**. Tool: **Park BBT-47-16** (16-notch, 52–54 mm — *not* the 44 mm BBT-69.4/BBT-79, that's for DUB BSA)
 - **Cassette:** SRAM Rival XPLR XG-1251, **10–44T, 12-speed** (XDR driver body)
 - **Chain:** SRAM Flattop, 12-speed (any Apex/Rival/Force/RED D1 — see Spares & wear parts)
 - **Rear derailleur:** SRAM Rival XPLR eTap AXS (long cage, XPLR-specific)
@@ -132,6 +133,7 @@ deglaze/marriage hassle. Stock up on 2+ sets.
 | Fastener | Torque |
 |---|---|
 | T47 BB cups (SRAM DUB T47) | 35–50 Nm, per cup arrows |
+| Chainring bolts ×8 (Wolf Tooth, SRAM 8-bolt direct mount) | 4 Nm |
 | Thru-axle, front & rear | 12–15 Nm (typical Trek/Bontrager) |
 | Stem faceplate & steerer clamp bolts | 5 Nm (carbon steerer) |
 | Seatpost binder (IsoSpeed) | ~5 Nm — start low, raise only until no slip |
@@ -150,8 +152,10 @@ Service manuals:
 - [ ] Stock crank arm length on 54 cm (172.5 vs 170)
 - [ ] Rotor mount type on both wheelsets (6-bolt vs Centerlock)
 - [ ] Headset bearing part numbers
-- [ ] BB installed now: SRAM DUB T47 — confirm **Road vs Road Wide** variant
+- [ ] BB installed now: SRAM DUB T47 85.5 — confirm **Road vs Road Wide** variant (part number from box / shop invoice)
 - [ ] 650b wheelset: rim width, tire model/size, rotor sizes
+- [ ] Chainring bolt bit size: T15 or T20 (Wolf Tooth lists T20)
+- [ ] Rival Quarq power meter: model/part number, confirm DUB Wide spindle and 172.5 mm arm
 
 ## Sources
 - https://www.trekbikes.com/us/en_US/bikes/bikepacking-touring-bikes/checkpoint/checkpoint-sl/checkpoint-sl-6-axs-gen-2/p/35170/

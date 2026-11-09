@@ -70,14 +70,15 @@ Status: ☐
   SRAM service kit at interval.
 
 ## 6. T47 threaded bottom bracket (DUB Wide)
-Status: ☐ — **active issue:** load creak at 3/9 o'clock after a shop BB swap. Full diagnosis procedure in `MOP-bb-creak-diagnosis.md` / `.html`, assembly diagram in `diagrams/sram-dub-crank-t47-bb.svg`.
+Status: ☑ — load creak at 3/9 o'clock after a shop BB swap **Fixed: 2026-10-30** (cause: dry threads + dirt in the uncleaned shell; cleaned, re-greased, cups at 35 N·m; bearings smooth, reused — specs.md). Procedure in `MOP-bb-creak-diagnosis.md` / `.html`, assembly diagram in `diagrams/sram-dub-crank-t47-bb.svg`.
 
 - Skills: remove/install T47 cups, check for creak, re-grease threads, swap the
   DUB bearing preload/wave washer, diagnose DUB spindle play.
 - Gotchas: threaded T47 (easy compared to press-fit). Installed BB is a **SRAM DUB
-  T47** (cup reads "SRAM"/"DUB") — confirm Road vs **Road Wide** (crank is DUB Wide,
-  chainline ~47.5 mm). Cups torque **35–50 Nm** per the stamped arrows. Grease/anti-seize
-  threads to kill creak.
+  T47 85.5** (cup reads "SRAM"/"DUB") — confirm Road vs **Road Wide** (crank is DUB Wide,
+  chainline ~47.5 mm). Cups torque **35–50 Nm** per the stamped arrows. Clean the shell
+  before install (shops skip it) and grease the threads, no threadlocker — dry, dirty
+  threads were this bike's creak. Frame threads are soft alloy: plastic/wood picks only.
 - Tools: **Park BBT-47-16** (16-notch, 52–54 mm T47 tool — *not* the 44 mm BBT-69.4/
   BBT-79, which is for DUB BSA; *not* the 12-notch BBT-47). Torque wrench to 50 Nm,
   DUB grease, 8 mm hex for the crank bolt (54 Nm).

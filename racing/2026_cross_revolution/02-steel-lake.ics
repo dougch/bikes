@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//dougch//Cross Revolution 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CXR #2 - Steel Lake
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:02-steel-lake@cross-revolution.com
+DTSTAMP:20260921T000000Z
+DTSTART;TZID=America/Los_Angeles:20261018T091500
+DTEND;TZID=America/Los_Angeles:20261018T095500
+SUMMARY:CXR #2 - Steel Lake
+LOCATION:2410 S 312th St, Federal Way, WA 98003
+DESCRIPTION:Start: 9:15 AM\nRace length: 40 min\n(No separate staging time 
+ published by the organizer -- arrive with enough buffer to register/pin up
+ /warm up before the start.)\n\nVenue: Steel Lake\nAddress note: street add
+ ress published on race page\n\nRegister: https://www.bikereg.com/cross-rev
+ olution-2026-race-2-steel-lake\nResults: https://cross-revolution.com/resu
+ lts/\nSchedule: https://cross-revolution.com/
+URL:https://cross-revolution.com/
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Race in 1 hour (9:15 AM start -- no official staging time publi
+ shed)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

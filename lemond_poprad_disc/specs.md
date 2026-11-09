@@ -52,10 +52,10 @@ stretched — see `santacruz_stigmata/specs.md`), steel dropouts **can** be cold
 | Item | Spec |
 |---|---|
 | Fork | **Bontrager** carbon/aluminum disc fork — stock/original, never replaced (model name not legible) |
-| Front brake | Avid BB7 mechanical disc (confirmed) |
+| Brakes | Avid BB7 mechanical disc, front and rear (confirmed) |
 | Stem | Redshift 90 mm (**not** 1-1/4"; replaced OEM Easton 75 mm 6° C10) |
 | Drivetrain | Mixed build: **SRAM Force** shifters, **SRAM Apex** long-cage rear derailleur, **Shimano Ultegra** front derailleur, **Shimano Ultegra FC-6650** compact crank (172.5mm arms, **110mm BCD confirmed by direct measurement**, 50T/34T SG-X rings, 9/10-speed) — **2x10 speed** cassette 11x36. |
-| Front wheel | Wide 29er disc wheel (not tubeless) |
+| Front wheel | Wide 29er disc wheel (not tubeless); swaps with the Stigmata's front wheel (see `compatibility.md`) |
 | Bottom bracket | Shimano Ultegra BBR60, Hollowtech II, English threaded (installed 2025-08-19) |
 | Rear spacing | 130 mm QR |
 
@@ -73,7 +73,7 @@ stretched — see `santacruz_stigmata/specs.md`), steel dropouts **can** be cold
   no fork swap has happened here. Winwood is not part of this bike at all.
 - **Brakes:** front disc, stock — matches the "Poprad **Disc**" name and the factory
   disc-specific fork/dropouts. Avid BB7 mechanical disc was common on these builds
-  (matches the current front caliper — see §2); worth confirming the rear caliper too.
+  (matches the current calipers, front and rear — see §2).
 - **Wheels:** 700c (622 mm BSD)
 - **Stock tire width:** ~34 mm (period spec — well under this bike's measured clearance)
 - **Stock groupset (varies by year):** Shimano 105 was common; the current build is a
@@ -145,11 +145,10 @@ pulled from the frame or a size-matched chart.
 
 ## 6. Open items to confirm
 
-- [x] mechanical disc Avid BB7 (front, current)
+- [x] mechanical disc Avid BB7 (front and rear, current)
 - [x] Fork brand: **Bontrager**, confirmed stock/original, never replaced — see §3
 - [ ] Confirm frame size: seat tube likely **55 cm** (56 cm probably the effective top tube — see §3 sizing note)
 - [ ] Fork model name (Bontrager branding visible, no legible model — "Switchblade Elite" is an unconfirmed guess from period reviews)
-- [ ] Rear brake caliper model
 - [ ] Spare chain: **KMC X10** ordered (retailer product #117755), listed as 116 links — confirm count on arrival (need ≥ current chain's count); spare KMC 10sp Missing Link ordered
 - [ ] Count links on current chain (sizing target for spares)
 - [ ] BB shell width (68 mm vs 70 mm English) — needed to confirm Force22 BB part number

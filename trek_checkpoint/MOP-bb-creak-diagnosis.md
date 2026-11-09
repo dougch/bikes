@@ -3,7 +3,8 @@
 **Bike:** Trek Checkpoint SL 6 AXS Gen 2 (2023), 54 cm
 **Assembly:** SRAM Rival 1 AXS crank, DUB Wide spindle, SRAM DUB **T47** threaded bottom bracket (cup reads "SRAM"/"DUB" — likely the Road Wide variant; confirm Road vs Road Wide)
 **Symptom:** Sharp creak at crank positions 3 o'clock / 9 o'clock, **under load only**, reproducible statically (clipped in, braced, brakes locked). Pedals and cleats already ruled out by swap. Started immediately after a shop BB replacement.
-**Doc rev:** 1 — 2026-08-30
+**Doc rev:** 2 — 2026-11-09
+**Status:** creak **Fixed: 2026-10-30** (Step 4 — see `specs.md`)
 **Estimated time:** 60–90 min
 **Skill level:** intermediate home mechanic
 
@@ -54,7 +55,7 @@
 | DUB crank bolt (self-extracting) | 8 mm hex | 54 N·m (SRAM DUB; older docs list a 38–54 range) | light grease |
 | Preload adjuster collar | hand | snug — zero play, cranks still spin free | — |
 | Preload collar clamp screw | 2 / 2.5 mm hex | just snug (~1.5 N·m) — do **not** force | — |
-| Chainring bolts ×8 (behind spider) | T25 | ~2.5 N·m (confirm) | blue threadlocker |
+| Chainring bolts ×8 (behind spider) | T15/T20 — use the bit that fits with no wobble | 4 N·m (SRAM 8-bolt direct mount) | blue threadlocker unless pre-patched |
 | Pedals into crank | 8 mm hex / 15 mm | 35 N·m | grease/anti-seize |
 | Front & rear thru-axle | 6 mm hex | 12–15 N·m | grease threads + under head |
 | Bottle cage bolts | 4 mm hex | 3 N·m | grease |
@@ -85,9 +86,9 @@
 ### Step 2 — Chainring & spider (drive side, now exposed)
 
 1. **Before touching a bolt:** inspect the ring-to-spider mating faces. Grey/black oxide paste or bright fretting scars = micro-movement = a prime creak source.
-2. Remove the 8 T25 bolts **one at a time**. Clean each bolt + its threaded hole with isopropyl. One drop blue threadlocker. Reinstall finger-tight.
+2. Remove the 8 chainring bolts (T15/T20) **one at a time**. Clean each bolt + its threaded hole with isopropyl. One drop blue threadlocker. Reinstall finger-tight.
 3. If fretting was present: separate the ring, clean both faces, thin film of anti-seize or friction paste on the contact land only (not the bolt seats), reassemble.
-4. Torque the 8 bolts in a star pattern, two passes, to spec (~2.5 N·m — confirm).
+4. Torque the 8 bolts in a star pattern, two passes, to **4 N·m**.
 5. Grab the ring at 12 and 6 o'clock and try to rock it on the spider. Any movement = not fixed; revisit face prep.
 6. Inspect the spindle-to-spider junction on the drive arm for cracks or movement (rare — warranty item if found).
 
@@ -103,9 +104,11 @@ Rough bearings or play → BB comes out (Step 4). Bearings perfect → still do 
 ### Step 4 — T47 bottom bracket cups
 
 1. Put the **BBT-47-16** on each cup. Gently test in the **loosening** direction. Movement before ~35 N·m = it was under-torqued.
-   - Thread direction: follow the **directional arrows stamped on the SRAM cups** (drive side is typically left-hand / reverse on T47).
+   - Thread direction (confirmed on this bike, 2026-10-24): cups are stamped **R** (drive) and **L** (non-drive); the arrows show the **tightening** direction. Facing each cup, to loosen: **R = clockwise** (left-hand / reverse thread), **L = counter-clockwise** (standard thread).
+   - Keeping the tool engaged: the 16-notch teeth are shallow and cam out under load. Lay the bike flat on the floor (drive side up for R, non-drive up for L) and bear down on the tool with body weight while turning. Use a breaker bar, not the torque wrench, to break cups loose.
 2. Remove both cups. Inspect:
-   - Frame threads + cup threads must carry grease/anti-seize. **Bone-dry = the classic T47 creak.**
+   - Frame threads + cup threads must carry grease/anti-seize. **Bone-dry = the classic T47 creak.** (This bike's cause, 2026-10-30: dry threads + dirt left in an uncleaned shell.)
+   - Clean the shell and both thread sets until a fresh rag comes away clean. Hard residue in the threads is old threadlocker: remove it with plastic/wood picks and a nylon brush only — the frame threads are soft alloy. Reinstall with grease, not threadlocker.
    - No galling, cross-threading, or alloy shavings. Cups should thread back most of the way **by hand**.
 3. **Confirm the variant.** The cup reads "SRAM"/"DUB" so it's a SRAM DUB T47 — but confirm it's the **Road Wide** version (matches your DUB Wide crank), not the standard Road. A standard-width DUB BB under a Wide crank never fully stops creaking; if it's the wrong one, replace it with the Road Wide.
 4. Clean, fresh anti-seize on threads, reinstall, torque **35–50 N·m**, per the cup arrows.
